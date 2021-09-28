@@ -1,0 +1,11 @@
+<a routerLink="/filme/cadastrar">Cadastrar Filme</a>
+
+<ol>
+    <li *ngFor="let filme of filmes">
+        <p>Id: {{ filme.id }}</p><br>
+        <p>Nome: {{ filme.nome }}</p><br>
+        <p>Gênero: {{ filme.genero }}</p><br>
+        <p>Produtora: {{ filme.produtora }}</p><br>
+        <p>Diretor: {{ filme.diretor }}</p>
+    </li>
+</ol>
